@@ -40,7 +40,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <StatusBar style="light" />
+      <StatusBar style='light' />
       {focusSubject ? (
         <Timer
           subject={focusSubject}
@@ -78,3 +78,5 @@ const styles = StyleSheet.create({
   },
   focusContainer: { flex: 1, backgroundColor: '#252250' },
 });
+
+// https://snack.expo.io/@khashayar/focustime
